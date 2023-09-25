@@ -1,0 +1,82 @@
+/* Exercise 9: converted font size 60px to 5vm */
+header {
+    padding: 1.7vw;
+}
+
+/* need to be changed to global */
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+/* exercise 10 */
+.inline {
+    display: inline-block;
+    margin: 0px;
+}
+
+.inline__link {
+    font-size: 1.75vw;
+    font-weight: 400;
+    /* exercise 10 */
+    margin: 0px 1.7vw;
+    color: #393939;
+}
+
+h1, h2 {
+    font-size: 5vw;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2.75vw;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.icon {
+    width: 4vw;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.left {
+    text-align: left;
+}
+
+.nitro-pink {
+    background-color: #FFF0ED;
+}
+
+.nitro-blue {
+    color: #5BACC3;
+}
+
+.light-gray {
+    background-color: #F7F7F7;
+}
+
+.white {
+    background-color: #FFF;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header.nitro-pink a {
+    text-decoration: none;
+}
+
+h3 > a {
+    font-size: 4vw;
+    color: #393939;
+    font-weight: 300;
+}
