@@ -1,0 +1,408 @@
+/* need to be changed to global */
+* {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+/* Exercise 9: converted font size 60px to 5vm */
+header {
+  padding: 1.7vw;
+}
+
+/* exercise 10 */
+.inline {
+  display: inline-block;
+  margin: 0px;
+}
+
+.inline__link {
+  font-size: 1.75vw;
+  font-weight: 400;
+  /* exercise 10 */
+  margin: 0px 1.7vw;
+  color: #393939;
+}
+
+h1, h2 {
+  font-size: 5vw;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2.75vw;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+.icon {
+  width: 4vw;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+.left {
+  text-align: left;
+}
+
+.nitro-pink {
+  background-color: #FFF0ED;
+}
+
+.nitro-blue {
+  color: #5BACC3;
+}
+
+.light-gray {
+  background-color: #F7F7F7;
+}
+
+.white {
+  background-color: #FFF;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header.nitro-pink a {
+  text-decoration: none;
+}
+
+h3 > a {
+  font-size: 4vw;
+  color: #393939;
+  font-weight: 300;
+}
+
+.button {
+  background-color: #5BACC3;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 15vw;
+  padding: 1vw;
+}
+
+.button-modified {
+  font-size: 2vw;
+}
+
+.regular-font {
+  font-weight: 400;
+}
+
+.bold-font {
+  font-weight: 700;
+}
+
+.discount-banner {
+  background-color: #393939;
+  width: 90%;
+  color: #FFF;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 3vw 1.75vw;
+  border: none;
+  margin-top: 10%;
+}
+
+.banner-text {
+  font-size: 3.2vw;
+  margin: 0px auto;
+}
+
+section.nitro-pink > img {
+  height: 43.5vw;
+}
+
+/* not in use */
+.white__row {
+  box-sizing: border-box;
+  padding: 1.75vw;
+  text-align: center;
+  margin-bottom: 1.75vw;
+}
+
+.white__row__card {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 29%;
+  padding: 2.75vw 1.75vw 1.75vw;
+  margin: 0vw 1.75vw;
+  box-shadow: 0px 5px 9px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 0.84vw;
+}
+
+/* not in use */
+.white__row__card h3 {
+  margin-bottom: 1.7vw;
+}
+
+/* not in use */
+.white__row__card > img {
+  height: 20vw;
+}
+
+/* exercise 12 */
+section.nitro-pink h1 {
+  margin: 0vw 0vw;
+}
+
+/* exercise 12 vertical-align: middle */
+section.nitro-pink > div {
+  width: 42%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5vw;
+  margin: 0vw 3.75vw;
+  vertical-align: middle;
+}
+
+/* exercise 12 */
+section.nitro-pink {
+  text-align: center;
+}
+
+/* exercise 12 */
+div.nitro-pink__left {
+  text-align: left;
+}
+
+/* exercise 12 */
+div.nitro-pink__center {
+  text-align: center;
+}
+
+/* exercise 12 */
+section.light-gray > h2 {
+  margin: 0vw auto;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1.75vw;
+}
+
+/* exercise 12 */
+.light-gray__anchor {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0vw 0vw 3.5vw;
+}
+
+/* exercise 12 */
+section.white {
+  box-sizing: border-box;
+  /* banner was set to 90% */
+  margin: 10vw calc(7vw - 10%) 10vw 7vw;
+}
+
+/* exercise 12 */
+footer.nitro-pink > div {
+  box-sizing: border-box;
+  width: 33%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* exercise 12 */
+footer.nitro-pink p {
+  margin: 0vw;
+}
+
+/* exercise 12 */
+footer {
+  box-sizing: border-box;
+  padding: 0vw 5vw 5vw;
+}
+
+div.nitro-pink__center > img {
+  width: 22vw;
+}
+
+/* ------------- exercise 13 ------------- */
+/* exercise 12 forgot card color */
+/* exercise 13 */
+.flex-container {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.white__row__card-white {
+  height: 40vw;
+  background-color: #FFF;
+  border: 0vw;
+  padding: 0vw;
+  margin: 0vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.white__row__card-pink {
+  background-color: #FFF0ED;
+  border-bottom-left-radius: 0.84vw;
+  border-bottom-right-radius: 0.84vw;
+  box-sizing: border-box;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.white__row__card-pink h3 {
+  margin: 0vw 1.2vw;
+}
+
+div.white__row__card-pink p {
+  text-align: left;
+  margin: 0vw 1.2vw;
+  color: #909090;
+}
+
+.white__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-bottom: 2.25vw;
+  height: 60%;
+}
+
+.white__image__height {
+  height: 100%;
+}
+
+.white__flex {
+  display: felx;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 42vw;
+  width: 80%;
+}
+
+.white__subflex > img {
+  width: 4vw;
+  margin-bottom: 2vw;
+}
+
+.white__subflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.white__flex {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.white__text {
+  width: 45%;
+}
+
+.white__tin {
+  box-sizing: border-box;
+  /* padding: 2vw; */
+  background-image: url(../assets/images/coldbrewbackground.png);
+  background-size: cover;
+  width: 40vw;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5vw;
+}
+
+.white__tin {
+  height: 70%;
+  width: 32%;
+}
+
+sectiomn.white {
+  margin: 0px;
+}
+
+.nitro-pink__border {
+  width: 47%;
+  height: 4.5vw;
+  border: 2px solid #393939;
+  position: relative;
+  bottom: 5.1vw;
+  right: 2%;
+}
+
+.light-gray__border {
+  width: 14.8%;
+  height: 4.5vw;
+  border: 2px solid #393939;
+  position: relative;
+  bottom: 8.7vw;
+  left: 41.7%;
+  text-align: center;
+}
+
+.white__border {
+  width: 34.5%;
+  height: 4.5vw;
+  border: 2px solid #393939;
+  position: relative;
+  bottom: 5.2vw;
+  right: 2%;
+}
+
+.white__tin-border {
+  width: 31.5%;
+  height: 29vw;
+  border: 5px solid #5BACC3;
+  position: relative;
+  bottom: 81%;
+  left: 61%;
+}
+
+.nitro-pink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 4vw;
+}
+
+.nitro-pink__icon-left {
+  width: 15%;
+  opacity: 0.3;
+  position: relative;
+  right: 9.5vw;
+  bottom: 4.5vw;
+}
+
+.nitro-pink__icon-right {
+  width: 15%;
+  opacity: 0.3;
+  position: relative;
+  left: 9.2vw;
+  top: 4.5vw;
+}/*# sourceMappingURL=landing.css.map */
