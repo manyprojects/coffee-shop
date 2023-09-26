@@ -1,0 +1,87 @@
+h1 {
+    text-align: center;
+    color: #FFF;
+}
+
+h2 {
+    text-align: center;
+    color: #393939;
+    margin: 0px auto;
+}
+
+h3 {
+    text-align: center;
+    color: #393939;
+    margin: 0px auto;
+}
+
+p {
+    text-align: center;
+    margin: 0px auto;
+}
+
+section {
+    padding-bottom: 2vw;
+}
+
+article > p {
+    margin-bottom: 2vw;
+}
+
+section > h3 {
+    margin-top: 2vw;
+}
+
+.title-box {
+    width: 20%;
+    height: 9.5vw;
+    background-color: #393939;
+    padding-top: 2.7vw;
+    margin: 0;
+}
+
+.menu-image {
+    width: 100%;
+    height: 39vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/images/coffee-circle.jpg");
+    /* text-align: cemter; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__box {
+    width: 19.5%;
+    height: 11.5vw;
+    border: 5px solid #5BACC3;
+    position: relative;
+    bottom: 27vw;
+    left: 38vw;
+}
+
+.subnav{
+    width: 100%;
+    background-color: #393939;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1.3vw;
+}
+
+div.subnav > a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6vw;
+    font-weight: 400;
+    padding: 0px 1.2vw;
+    border-color: #5BACC3;
+    border-style: none none none solid;
+}
+
+.item {
+    width: 41%;
+    margin: auto;
+}
+
