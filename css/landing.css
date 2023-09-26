@@ -30,9 +30,9 @@
     color: #FFF;
     text-align: center;
     box-sizing: border-box;
-    /* exercise 12 vertical padding added */
-    padding: 1.75vw 1.75vw;
+    padding: 3vw 1.75vw;
     border: none;
+    margin-top: 10%;
 }
 
 .banner-text {
@@ -157,7 +157,8 @@ div.nitro-pink__center > img {
 
 .white__row__card-pink {
     background-color: #FFF0ED;
-    border-radius: 0.84vw;
+    border-bottom-left-radius: 0.84vw;
+    border-bottom-right-radius: 0.84vw;
     box-sizing: border-box;
     width: 100%;
     height: 33%;
@@ -188,4 +189,61 @@ div.white__row__card-pink p {
 
 .white__image__height {
     height: 100%;
+}
+
+.white__flex {
+    display: felx;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 42vw;
+    width: 80%;
+}
+
+.white__subflex > img {
+    width: 4vw;
+    margin-bottom: 2vw;
+}
+
+.white__subflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.white__flex {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white__text {
+    width: 45%;
+}
+
+.white__tin {
+    box-sizing: border-box;
+    /* padding: 2vw; */
+    background-image: url(../assets/images/coldbrewbackground.png);
+    background-size: cover;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vw;;
+}
+
+.white__tin {
+    height: 70%;
+    width: 32%;
+}
+
+sectiomn.white {
+    margin: 0px;
 }
