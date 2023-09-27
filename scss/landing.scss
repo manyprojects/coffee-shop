@@ -1,7 +1,8 @@
 @use './partials/global' as *;
 
-.button {
-    background-color: #5BACC3;
+
+.button-modified {
+    background-color: none;
     color: #FFF;
     font-family: 'Open Sans';
     font-weight: 400;
@@ -11,11 +12,40 @@
     display: inline-block;
     box-sizing: border-box;
     width: 15vw;
-    padding: 1vw;
+    height: 4.5vw;
+    font-size: 2.0vw;
 }
 
-.button-modified {
-    font-size: 2.0vw;
+.button-modified-blue {
+    background-color: #5BACC3;
+    width: 15vw;
+    padding: 2.4vw;
+    position: relative;
+    top: 4.5vw;
+    
+}
+
+
+.nitro-pink__border {
+    box-sizing: border-box;
+    width: 48.7%;
+    height: 4.8vw;
+    border: 2px solid #393939;
+    position: relative;
+    bottom: 1.1vw;
+    right: 2.5%;
+    margin: 0vw;
+}
+
+.nitro-pink__border:active {
+    box-sizing: border-box;
+    width: 48.7%;
+    height: 4.8vw;
+    border: 2px solid #393939;
+    position: relative;
+    left: 0.5%;
+    top: 2%;
+    margin-top: 1%;
 }
 
 .regular-font {
@@ -71,11 +101,10 @@ section.nitro-pink > img {
     height: 20vw;
 }
 
-/* exercise 12 */
 section.nitro-pink h1 {
     margin: 0vw 0vw;
 }
-/* exercise 12 vertical-align: middle */
+
 section.nitro-pink > div {
     width: 42%;
     display: inline-block;
@@ -84,49 +113,63 @@ section.nitro-pink > div {
     margin: 0vw 3.75vw;
     vertical-align: middle;
 }
-/* exercise 12 */
+
 section.nitro-pink {
     text-align: center;
 }
-/* exercise 12 */
+
 div.nitro-pink__left {
     text-align: left;
 }
-/* exercise 12 */
+
 div.nitro-pink__center {
     text-align: center;
 }
-/* exercise 12 */
+
 section.light-gray > h2{
     margin: 0vw auto;
     text-align: center;
     box-sizing: border-box;
     padding: 1.75vw;
 }
-/* exercise 12 */
-.light-gray__anchor {
-    text-align: center;
-    box-sizing: border-box;
-    padding: 0vw 0vw 3.5vw;
+
+.light-gray__blue {
+    background-color: #5BACC3;
+    width: 14vw;
+    height: 4.25vw;
+    position: relative;
+    top: 2vw;
+    left: 41vw;
 }
-/* exercise 12 */
+
+.light-gray__border {
+    box-sizing: border-box;
+    height: 4.5vw;
+    position: relative;
+    top: -3vw;
+    left: 49vw;
+}
+
+.light-gray__border:active {
+    top: -2.5vw;
+}
+
 section.white {
     box-sizing: border-box;
-    /* banner was set to 90% */
     margin: 10vw calc(7vw - 10%) 10vw 7vw;
 }
-/* exercise 12 */
+
 footer.nitro-pink > div {
     box-sizing: border-box;
     width: 33%;
     display: inline-block;
     vertical-align: middle;
 }
-/* exercise 12 */
+
 footer.nitro-pink p {
     margin: 0vw;
 }
-/* exercise 12 */
+
 footer {
     box-sizing: border-box;
     padding: 0vw 5vw 5vw;
@@ -135,9 +178,7 @@ footer {
 div.nitro-pink__center > img {
     width: 22vw;
 }
-/* ------------- exercise 13 ------------- */
-/* exercise 12 forgot card color */
-/* exercise 13 */
+
 .flex-container {
     display: inline-flex;
     justify-content: space-around;
@@ -194,7 +235,7 @@ div.white__row__card-pink p {
 }
 
 .white__flex {
-    display: felx;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -212,7 +253,6 @@ div.white__row__card-pink p {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-
 }
 
 .white__flex {
@@ -231,7 +271,6 @@ div.white__row__card-pink p {
 
 .white__tin {
     box-sizing: border-box;
-    /* padding: 2vw; */
     background-image: url(../assets/images/coldbrewbackground.png);
     background-size: cover;
     width: 40vw;
@@ -252,12 +291,13 @@ sectiomn.white {
 }
 
 .nitro-pink__border {
-    width: 47%;
+    box-sizing: border-box;
+    width: 48.7%;
     height: 4.5vw;
     border: 2px solid #393939;
     position: relative;
-    bottom: 5.1vw;
-    right: 2%;
+    bottom: 1.1vw;
+    right: 2.5%;
 }
 
 .light-gray__border {
@@ -292,7 +332,7 @@ sectiomn.white {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 4vw;
 }
 
@@ -310,4 +350,28 @@ sectiomn.white {
     position: relative;
     left: 9.2vw;
     top: 4.5vw;
+}
+
+.white__blue {
+    background-color: #5BACC3;
+    width: 14vw;
+    height: 4.25vw;
+    position: relative;
+    top: 2vw;
+    left: 0.5vw;
+}
+
+.white__border {
+    box-sizing: border-box;
+    height: 4.5vw;
+    width: 14.1vw;
+    position: relative;
+    top: -3vw;
+    left: -0.5vw;
+}
+
+.white__border:active {
+    position: relative;
+    top: -2.4vw;
+    left: 0.5vw;
 }
